@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background: rgb(33 31 36);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+.topBox {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.topBox input[type="text"] {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(250, 250, 250);
+  background: rgb(31, 75, 75);
+  border: 0;
+  outline: none;
+  border-radius: 5rem;
+  width: 35rem;
+}
+.topBox button {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  color: white;
+  background: rgb(93, 174, 86);
+  height: 4rem;
+  width: 4rem;
+}
+.topBox button:hover {
+  color: black;
+  background: rgb(93, 174, 86);
+}
+.bottomBox {
+  padding: 1rem;
+}
+.input {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border: none;
+  border-bottom: 0.2rem solid rgb(93, 174, 86);
+  width: 30rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.input.showBorder {
+  border: 0.2rem solid rgb(93, 174, 86);
+}
+#edit {
+  padding: 1.3rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: rgb(73 156 64);
+  margin-left: 1rem;
+}
+#delete {
+  padding: 1.3rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: rgb(151 69 69);
+  margin-left: 1rem;
+}
+#done {
+  padding: 1.3rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: rgb(151 135 69);
+  margin-left: 1rem;
+}
+#edit:hover,
+#delete:hover,
+#done:hover {
+  color: black;
+}
+
+span {
+  color: rgb(93, 174, 86);
+}
